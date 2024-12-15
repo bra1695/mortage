@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Plus Jakarta Sans';
+    src: url('@/assets/fonts/static/PlusJakartaSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Plus Jakarta Sans';
+    src: url('@/assets/fonts/static/PlusJakartaSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --dark-color: #133040;
+    --yellow-color: #d9d934;
+    --blue-color: #e3f4fc;
+}
+.bg-dark{
+    background-color: var(--dark-color);
+}
+.text-dark{
+    color: var(--dark-color);
+}
+.border-dark{
+    border: var(--dark-color);
+}
+.bg-yellow{
+    background-color: var(--yellow-color);
+}
+.text-yellow{
+   color: var(--yellow-color);
+}
+.border-yellow{
+    color: var(--yellow-color);
+}
+.bg-blue{
+    background-color: var(--blue-color);
+}
+.text-blue{
+   color: var(--blue-color);
+}
+.border-blue{
+    border: var(--blue-color);
+}
+
